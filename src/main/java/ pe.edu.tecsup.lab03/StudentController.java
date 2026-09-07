@@ -8,6 +8,7 @@ public class StudentController {
     // Nuevo comportamiento añadido
     public void filtrarEstudiantesActivos() {
         System.out.println("Filtrando estudiantes activos para el sprint-2");
+        System.out.println("Moficiacion del responsable");
         service.obtenerPorEstado("ACTIVO");
     }
 }
